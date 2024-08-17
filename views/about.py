@@ -9,7 +9,6 @@ with col1:
     st.write('FullStack Developer based in Morocco')
 
 with col2:pass
-    # st.image("./assets/logo.jpg",width=200,clamp=True)
 
 
 st.write('\n')
