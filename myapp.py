@@ -1,10 +1,5 @@
 import streamlit as st
 
-# st.html("""<section style='background-color:green'>
-#         <p style='color:red'>
-#         hello friend<script>alert('test') <script>
-#         <p> </section>""")
-# st.write('')
 
 
 about_page=st.Page(page="./views/about.py",title='About Me',
