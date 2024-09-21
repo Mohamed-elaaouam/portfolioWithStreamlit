@@ -5,6 +5,10 @@ st.title('Projects')
 col1,col2=st.columns(2,gap='medium',vertical_alignment='center')
 
 with col1:
+    st.subheader('My start ups:')
+    st.image(["./assets/startup1.png"],[ st.write('An AI chatbox for generating cooking recipes <a href="https://myaichef.pages.dev/">MyAiChef </a>',unsafe_allow_html=True)],width=300,clamp=True)
+    # st.image(["./assets/realproject2.png"],[ st.write(' <a href="https://allopsy.ma/">Allopsy </a>',unsafe_allow_html=True)],width=300,clamp=True)
+
     st.subheader('Made for clients:')
     st.image(["./assets/realproject1.png"],[ st.write('a Platforms serving as phonebook for Moroccan Psychologues check it <a href="https://psychologue.link/">here </a>',unsafe_allow_html=True)],width=300,clamp=True)
     st.image(["./assets/realproject2.png"],[ st.write(' <a href="https://allopsy.ma/">Allopsy </a>',unsafe_allow_html=True)],width=300,clamp=True)
