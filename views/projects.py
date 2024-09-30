@@ -7,7 +7,7 @@ col1,col2=st.columns(2,gap='medium',vertical_alignment='center')
 with col1:
     st.subheader('Mobile Apps:')
     st.image(["./assets/app1.png"],[ st.write('Ecommerce Store app built with Flutter and Firebase (app is for developpement only) <a href="https://www.mediafire.com/file/3smhjneupk5qrec/shoes-release.apk/file">get it here</a>',unsafe_allow_html=True)],width=300,clamp=True)
-    st.image(["./assets/app2.png"],[,"./assets/app3.png"],width=300,clamp=True)
+    st.image(["./assets/app2.png"],["./assets/app3.png"],width=300,clamp=True)
     
     st.subheader('My start ups:')
     st.image(["./assets/startup1.png"],[ st.write('An AI chatbot for generating cooking recipes <a href="https://myaichef.pages.dev/">MyAiChef </a>',unsafe_allow_html=True)],width=300,clamp=True)
